@@ -1,8 +1,10 @@
 
-import 'package:first_app/Screens/Home_screen.dart';
-import 'package:first_app/Screens/profile.dart';
-import 'package:first_app/Screens/search_screen.dart';
+
+import 'package:first_app/presentation/profile.dart';
+import 'package:first_app/presentation/search_screen.dart';
 import 'package:flutter/material.dart';
+
+import 'Home_screen.dart';
 
 class BottomBar extends StatefulWidget {
   const BottomBar({Key? key}): super(key: key);

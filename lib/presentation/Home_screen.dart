@@ -1,7 +1,6 @@
-import 'package:first_app/Screens/ticketview1.dart';
-import 'package:first_app/Screens/ticketview2.dart';
-import 'package:first_app/Screens/ticketview3.dart';
+
 import 'package:first_app/utils/appstyles.dart';
+import 'package:first_app/widgets/ticket_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
@@ -85,28 +84,18 @@ class HomeScreen extends StatelessWidget {
           Container(
             child: const Column(
               children: [
-                Row(
-                  children: [
-                    TicketView(),
-                  ],
-                ),
-                Gap(20),
-                Row(
-                  children: [
-                    TicketView2(),
-                  ],
-                ),
-                Gap(20),
-                Row(
-                  children: [
-                    TicketView3(),
-                  ],
-                ),
-              ],
-            ),
+                  TicketView(Departure_Airport: 'John F. Kennedy', Arrival_Airport:'Cairo Airport' , Departure_City: 'NYC', Arrival_City: 'EGYPT', Distance: '5,733 mi', Date: '1 JAN', Departure_Time: '08:00:00 PM', Passengers_No: '1 ADULT'),
+                 Gap(10),
+                TicketView(Departure_Airport: 'Charles de Gaulle', Arrival_Airport: 'Cairo Airport', Departure_City: 'PARIS', Arrival_City: 'EGYPT', Distance: '5,220 km', Date: '25 DEC', Departure_Time: '10:00:00 AM', Passengers_No: '1 ADULT'),
+                 Gap(10),
+                TicketView(Departure_Airport: 'Borg El-Arab', Arrival_Airport: 'Luxor Airport', Departure_City: 'ALEX', Arrival_City: 'LUXOR', Distance: '887.5 km', Date: '1 SEP', Departure_Time: '06:30:00 PM', Passengers_No: '1 ADULT'),
+                ],
           ),
-        ],
       ),
+    ],
+    ),
     );
   }
 }
+//String departure_airport ,arrival_airport,departure_city,
+// arrival_city,distance,date,departure_time,passengers_no;
