@@ -1,9 +1,7 @@
 
 import 'package:first_app/utils/appstyles.dart';
 import 'package:first_app/widgets/ticket_view.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:gap/gap.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -56,6 +54,7 @@ class HomeScreen extends StatelessWidget {
                     decoration: InputDecoration(
                       icon: Icon(Icons.search),hintText: 'Search',iconColor: Colors.black,fillColor: Colors.black,
                     ),
+
                   ),
                 ),
                 const Gap(40),
@@ -97,5 +96,3 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-//String departure_airport ,arrival_airport,departure_city,
-// arrival_city,distance,date,departure_time,passengers_no;

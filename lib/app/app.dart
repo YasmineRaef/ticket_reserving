@@ -1,4 +1,5 @@
-import 'package:flutter/cupertino.dart';
+import 'package:first_app/presentation/auth.dart';
+import 'package:first_app/presentation/sign_up.dart';
 import 'package:flutter/material.dart';
 import '../presentation/bottom_bar.dart';
 import '../utils/appstyles.dart';
@@ -14,7 +15,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: primary,
       ),
-      home: const BottomBar(),
+      home: const Auth(),
+      routes: {
+        'signupScreen':(context) => const SignUpScreen(),
+      },
     );
   }
 }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "659794852759",
+    "project_id": "ticket-reservation-94eb2",
+    "storage_bucket": "ticket-reservation-94eb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659794852759:android:e4bc207dc27b040ea5e2d2",
+        "android_client_info": {
+          "package_name": "com.yasmineraef76.ticket_reservation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoSBgaTvrwQYDKIHE_kinNwljEGkdu6U4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

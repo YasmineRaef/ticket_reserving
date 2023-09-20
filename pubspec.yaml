@@ -34,6 +34,8 @@ dependencies:
     sdk: flutter
   gap: ^2.0.0
   http: ^1.1.0
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.7.2
 
 dev_dependencies:
   # The "flutter_lints" package below contains a set of recommended lints to
