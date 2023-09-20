@@ -38,13 +38,13 @@ class _SignUpScreenState extends State<SignUpScreen> {
     Navigator.of(context).pushReplacementNamed('pro');
   }
 
-  @override
+  /*@override
   void dispose (){
     super.dispose();
     _emailController2.dispose();
     _passwordController2.dispose();
     _confirmedPasswordController.dispose();
-  }
+  }*/
 
   @override
   Widget build(BuildContext context) {
@@ -56,7 +56,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
             width: 290,
             height: 550,
             decoration: BoxDecoration(
-              color: Colors.purple.shade100,
+              color: Colors.pink.shade100,
             ),
             child: Column(
                 children: [

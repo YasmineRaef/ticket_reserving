@@ -45,7 +45,7 @@ class _MyProfileState extends State<MyProfile> {
         child: Container(
           width: 290,
           height: 550,
-          decoration: BoxDecoration(
+          decoration:  BoxDecoration(
             color: Colors.purple.shade100,
           ),
           child: Column(
