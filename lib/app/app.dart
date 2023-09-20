@@ -1,4 +1,5 @@
 import 'package:first_app/presentation/auth.dart';
+import 'package:first_app/presentation/profile.dart';
 import 'package:first_app/presentation/sign_up.dart';
 import 'package:flutter/material.dart';
 import '../presentation/bottom_bar.dart';
@@ -18,6 +19,8 @@ class MyApp extends StatelessWidget {
       home: const Auth(),
       routes: {
         'signupScreen':(context) => const SignUpScreen(),
+        'myAuth':(context) => const Auth(),
+        'pro':(context) => const MyProfile(),
       },
     );
   }
