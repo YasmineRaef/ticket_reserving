@@ -1,6 +1,7 @@
-# first_app
+# Airline Ticket reservation application
 
-A new Flutter project.
+First UI application built using Fllutter framework. No database included. 
+
 
 ## Getting Started
 
